@@ -32,6 +32,15 @@ int main(){
 
     Rectangle R1,R2;
 
-    
+    R1.setDimension(2,3);
+    R2.setDimension(3,4);
+
+    R1.displayDimension();
+
+    double area =R1.calculateArea(R2);
+
+    cout<<area<<endl;
+
+    return 0;
 
 }
